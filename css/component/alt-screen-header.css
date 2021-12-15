@@ -1,0 +1,37 @@
+.alt-header{
+    padding-top: var(--horizontal-space);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alt-header_column{
+    width: 33%;
+}
+
+.alt-header_title{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.alt-header_column:first-child{
+    margin-right: auto;
+}
+
+.alt-header_column:nth-child(2){
+    text-align: center;
+}
+.alt-header_column:last-child{
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.settings-setting{
+    padding-bottom: 30px;
+    border-bottom: 1px solid var(--grey);
+}
+
+.alt-header_column i:last-child{
+    margin-left: 20px;
+}
